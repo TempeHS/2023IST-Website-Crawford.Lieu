@@ -13,6 +13,7 @@ DIV {
 	max-width: 800px;
 	margin-right: auto;
 	margin-left: auto;
+	margin: auto;
 	background: url(images/banner.png) no-repeat;
 }
 
@@ -31,16 +32,18 @@ DIV {
 
 #FooterLeft {
 	float: left;
-	width: 0.5vw;
+	width: 50vw;
 	height: 49px;
 	border: 1px solid green;
+	margin: auto;
 }
 
 #FooterRight {
 	float: right;
-	width: 0.5vw;
+	width: 50vw;
 	height: 49px;
 	border: 1px solid red;
+	margin: auto;
 }
 
 @media only screen and (max-width: 998px) {
